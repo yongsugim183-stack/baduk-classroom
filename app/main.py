@@ -68,6 +68,13 @@ def get_lessons():
     return load_json("lessons.json")
 
 
+@app.get("/api/news")
+def get_news():
+    data = load_json("news.json")
+    items = sorted(data["items"], key=lambda x: x["date"], reverse=True)
+    return {"items": items}
+
+
 @app.get("/api/lessons/progress")
 def get_lesson_progress():
     conn = db.get_conn()

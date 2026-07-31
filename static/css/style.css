@@ -178,6 +178,13 @@ input[type=text], input[type=number], select {
 }
 .rank-pill.current { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 700; }
 
+.news-item { padding: 14px 0; border-bottom: 1px solid var(--border); }
+.news-item:last-child { border-bottom: none; }
+.news-date { color: var(--sub); font-size: 0.82rem; }
+.news-title { margin: 4px 0 6px; }
+.news-source { color: var(--accent); font-size: 0.88rem; text-decoration: none; }
+.news-source:hover { text-decoration: underline; }
+
 @media (max-width: 860px) {
   .two-col { flex-direction: column; }
   .side-nav { position: static; width: 100%; max-height: none; }

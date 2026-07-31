@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const tabBtns = document.querySelectorAll(".tab-btn");
   const panels = document.querySelectorAll(".tab-panel");
-  const initialized = { lessons: false, tsumego: false, rank: false, kifu: false, practice: false };
+  const initialized = { lessons: false, tsumego: false, rank: false, news: false, kifu: false, practice: false };
 
   async function activate(tabName) {
     tabBtns.forEach((b) => b.classList.toggle("active", b.dataset.tab === tabName));
@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (tabName === "lessons") await LessonsTab.init();
       if (tabName === "tsumego") await TsumegoTab.init();
       if (tabName === "rank") await RankTab.init();
+      if (tabName === "news") await NewsTab.init();
       if (tabName === "kifu") await KifuTab.init();
       if (tabName === "practice") await PracticeTab.init();
     }
