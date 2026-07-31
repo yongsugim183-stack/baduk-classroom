@@ -19,7 +19,7 @@ from app import bot as bot_mod
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 
-app = FastAPI(title="바둑교실")
+app = FastAPI(title="윤남매 바둑교실")
 
 # 배포 환경에서 APP_PASSWORD 환경변수가 설정되어 있으면 HTTP Basic 인증으로 전체 앱을 보호한다.
 # 로컬 개발(환경변수 미설정) 시에는 인증 없이 그대로 사용 가능하다.
