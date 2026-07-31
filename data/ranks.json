@@ -1,0 +1,28 @@
+{
+  "ranks": [
+    {"index": 0, "label": "18급", "group": "급", "recommended_size": 9},
+    {"index": 1, "label": "17급", "group": "급", "recommended_size": 9},
+    {"index": 2, "label": "16급", "group": "급", "recommended_size": 9},
+    {"index": 3, "label": "15급", "group": "급", "recommended_size": 9},
+    {"index": 4, "label": "14급", "group": "급", "recommended_size": 9},
+    {"index": 5, "label": "13급", "group": "급", "recommended_size": 9},
+    {"index": 6, "label": "12급", "group": "급", "recommended_size": 9},
+    {"index": 7, "label": "11급", "group": "급", "recommended_size": 13},
+    {"index": 8, "label": "10급", "group": "급", "recommended_size": 13},
+    {"index": 9, "label": "9급", "group": "급", "recommended_size": 13},
+    {"index": 10, "label": "8급", "group": "급", "recommended_size": 13},
+    {"index": 11, "label": "7급", "group": "급", "recommended_size": 13},
+    {"index": 12, "label": "6급", "group": "급", "recommended_size": 13},
+    {"index": 13, "label": "5급", "group": "급", "recommended_size": 19},
+    {"index": 14, "label": "4급", "group": "급", "recommended_size": 19},
+    {"index": 15, "label": "3급", "group": "급", "recommended_size": 19},
+    {"index": 16, "label": "2급", "group": "급", "recommended_size": 19},
+    {"index": 17, "label": "1급", "group": "급", "recommended_size": 19},
+    {"index": 18, "label": "1단", "group": "단", "recommended_size": 19},
+    {"index": 19, "label": "2단", "group": "단", "recommended_size": 19},
+    {"index": 20, "label": "3단", "group": "단", "recommended_size": 19},
+    {"index": 21, "label": "4단", "group": "단", "recommended_size": 19},
+    {"index": 22, "label": "5단", "group": "단", "recommended_size": 19}
+  ],
+  "note": "이 급수는 AI 상대의 상대적 난이도 단계일 뿐, 실제 한국기원 등 공인 급단과 일치하지 않습니다."
+}

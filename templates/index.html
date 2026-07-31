@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>바둑교실 - 기초부터 고급까지</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>🎯 바둑교실</h1>
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="lessons">📖 학습</button>
+    <button class="tab-btn" data-tab="tsumego">🧩 사활 테스트</button>
+    <button class="tab-btn" data-tab="rank">🏆 급수전</button>
+    <button class="tab-btn" data-tab="kifu">📜 복기</button>
+    <button class="tab-btn" data-tab="practice">✏️ 연습판</button>
+  </nav>
+</header>
+
+<main>
+  <section id="tab-lessons" class="tab-panel active">
+    <div class="two-col">
+      <aside id="lesson-nav" class="side-nav"></aside>
+      <div id="lesson-content" class="content-area"></div>
+    </div>
+  </section>
+
+  <section id="tab-tsumego" class="tab-panel">
+    <div class="two-col">
+      <aside id="tsumego-nav" class="side-nav"></aside>
+      <div id="tsumego-content" class="content-area"></div>
+    </div>
+  </section>
+
+  <section id="tab-rank" class="tab-panel">
+    <div id="rank-content" class="content-area full"></div>
+  </section>
+
+  <section id="tab-kifu" class="tab-panel">
+    <div id="kifu-content" class="content-area full"></div>
+  </section>
+
+  <section id="tab-practice" class="tab-panel">
+    <div id="practice-content" class="content-area full"></div>
+  </section>
+</main>
+
+<script src="/static/js/board.js"></script>
+<script src="/static/js/lessons.js"></script>
+<script src="/static/js/tsumego.js"></script>
+<script src="/static/js/rank.js"></script>
+<script src="/static/js/kifu.js"></script>
+<script src="/static/js/practice.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>
